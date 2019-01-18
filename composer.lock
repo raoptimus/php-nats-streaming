@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb277a8eddd5fa7d901c8f007a2fba58",
+    "content-hash": "8aabc98422b1a86729399e1cc89e8cc5",
     "packages": [
         {
             "name": "ircmaxell/random-lib",
@@ -173,16 +173,16 @@
         },
         {
             "name": "repejota/nats",
-            "version": "0.8.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/repejota/phpnats.git",
-                "reference": "4959e9d2f651bebff3e7b34c0577cbfe6f3d51e3"
+                "reference": "7164c92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/repejota/phpnats/zipball/4959e9d2f651bebff3e7b34c0577cbfe6f3d51e3",
-                "reference": "4959e9d2f651bebff3e7b34c0577cbfe6f3d51e3",
+                "url": "https://api.github.com/repos/repejota/phpnats/zipball/7164c92",
+                "reference": "7164c92",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +192,7 @@
                 "leanphp/phpspec-code-coverage": "^3.2@dev",
                 "phpspec/phpspec": "^3.0",
                 "phpunit/phpunit": "5.*",
-                "satooshi/php-coveralls": "dev-master"
+                "satooshi/php-coveralls": "2.0.x-dev"
             },
             "type": "library",
             "autoload": {
@@ -231,7 +231,7 @@
                 }
             ],
             "description": "A nats.io client in PHP",
-            "time": "2017-07-17T16:52:37+00:00"
+            "time": "2018-08-17T10:52:51+00:00"
         }
     ],
     "packages-dev": [
@@ -365,7 +365,7 @@
                 "reference": "origin/master"
             },
             "type": "library",
-            "time": "2017-11-09T18:15:19+00:00"
+            "time": "2018-12-31T10:04:52+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2673,6 +2673,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "repejota/nats": 20,
         "symfony/console": 20,
         "satooshi/php-coveralls": 20,
         "github.com/gogo/protobuf": 20
