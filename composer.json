@@ -5,7 +5,7 @@
   "type": "library",
   "require": {
     "protobuf-php/protobuf": "^0.1.3",
-    "repejota/nats": "dev-master@7164c92"
+    "repejota/nats": "dev-master#7164c92"
   },
   "require-dev": {
     "protobuf-php/protobuf-plugin": "^0.1.2",
